@@ -1,0 +1,5 @@
+.filter-bar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 1rem; }
+.filter-btn { height: 28px; padding: 0 12px; border: 0.5px solid var(--border); border-radius: 99px; font-size: 12px; background: transparent; color: var(--text2); cursor: pointer; text-transform: capitalize; transition: all 0.15s; }
+.filter-btn.active { border-color: var(--border2); color: var(--text); background: var(--surface2); font-weight: 500; }
+.clear-btn { margin-left: auto; font-size: 12px; color: var(--text3); background: none; border: none; cursor: pointer; }
+.clear-btn:hover { color: var(--text2); }

@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+.header-title { font-size: 22px; font-weight: 500; color: var(--text); }
+.header-date { font-size: 13px; color: var(--text2); margin-top: 3px; }
+.theme-btn {
+  width: 36px; height: 36px;
+  border: 0.5px solid var(--border2);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 16px;
+  display: flex; align-items: center; justify-content: center;
+}
+.theme-btn:hover { background: var(--surface2); }

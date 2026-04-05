@@ -1,0 +1,38 @@
+.app-wrapper {
+  min-height: 100vh;
+  background: var(--bg);
+  transition: background 0.3s;
+}
+.app {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Theme variables */
+[data-theme="dark"] {
+  --bg: #0f0f0f;
+  --surface: #1a1a1a;
+  --surface2: #222222;
+  --border: rgba(255,255,255,0.08);
+  --border2: rgba(255,255,255,0.15);
+  --text: #f0f0f0;
+  --text2: #888;
+  --text3: #444;
+  --green: #2daa7e;
+  --red: #e05252;
+  --amber: #e09a2f;
+}
+[data-theme="light"] {
+  --bg: #f7f6f3;
+  --surface: #ffffff;
+  --surface2: #efefed;
+  --border: rgba(0,0,0,0.08);
+  --border2: rgba(0,0,0,0.16);
+  --text: #111111;
+  --text2: #666666;
+  --text3: #aaaaaa;
+  --green: #1D9E75;
+  --red: #E24B4A;
+  --amber: #BA7517;
+}

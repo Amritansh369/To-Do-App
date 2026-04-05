@@ -1,0 +1,8 @@
+.add-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1.25rem; }
+.add-input { flex: 1; min-width: 140px; height: 36px; padding: 0 12px; border: 0.5px solid var(--border2); border-radius: 8px; font-size: 14px; background: var(--surface); color: var(--text); outline: none; }
+.add-input:focus { box-shadow: 0 0 0 2px var(--border2); }
+.add-input::placeholder { color: var(--text3); }
+.add-select { height: 36px; padding: 0 8px; border: 0.5px solid var(--border2); border-radius: 8px; font-size: 13px; background: var(--surface); color: var(--text); outline: none; cursor: pointer; }
+.add-btn { height: 36px; padding: 0 16px; border: 0.5px solid var(--border2); border-radius: 8px; font-size: 14px; background: var(--surface); color: var(--text); cursor: pointer; white-space: nowrap; }
+.add-btn:hover { background: var(--surface2); }
+.add-btn:active { transform: scale(0.97); }
